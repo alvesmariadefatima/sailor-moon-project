@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Dekko&display=swap');
+
+.navbar {
+    background-color: #FF69B4;
+}
+
+.linksNavbar {
+    font-family: "Dekko", sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.containerNavbar, .container {
+    text-align: right;
+}
+
+/* Adicionando regras de estilo para tornar a navbar responsiva */
+@media screen and (max-width: 768px) {
+    .containerNavbar, .container {
+        text-align: center; /* Centraliza os itens na navbar */
+    }
+
+    .linksNavbar {
+        display: block; /* Define os links como elementos de bloco para empilhamento */
+        padding: 10px; /* Adiciona espaçamento superior e inferior para os links */
+        
+    }
+}

@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Sailor Moon Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é o README para o projeto Sailor Moon Project, uma landing page do anime Sailor Moon desenvolvido em React JS. O objetivo deste projeto é aprimorar os conhecimentos em Desenvolvimento Web, bem como na área de UX Design utilizando o Figma.
 
-## Available Scripts
+## Visão Geral
 
-In the project directory, you can run:
+Sailor Moon Project é uma landing page interativa e informativa dedicada ao famoso anime japonês "Sailor Moon". A página é desenvolvida em React JS para fornecer uma experiência de usuário dinâmica e responsiva. Além disso, o design da página é criado com o Figma para garantir uma interface atraente e fácil de usar.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Apresentação do anime Sailor Moon.
+- Exibição de informações sobre os personagens principais.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologias Utilizadas
 
-### `npm test`
+- React JS: Para o desenvolvimento da interface do usuário interativa e responsiva.
+- Figma: Para o design e prototipagem da interface do usuário.
+- HTML/CSS: Para a estrutura e estilização da página.
+- JavaScript: Para a lógica de interação e funcionalidades da página.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Executar o Projeto Localmente
 
-### `npm run build`
+1. Certifique-se de ter o Node.js instalado em seu computador.
+2. Clone este repositório usando o comando:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+git clone https://github.com/seu-usuario/sailor-moon-project.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Navegue até o diretório do projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+cd sailor-moon-project
+```
 
-### `npm run eject`
+4. Instale as dependências do projeto usando o npm:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Inicie o servidor de desenvolvimento:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+6. Abra seu navegador e acesse [http://localhost:3000](http://localhost:3000) para visualizar o projeto.
 
-## Learn More
+## Contribuição
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contribuições são bem-vindas! Se você quiser melhorar este projeto, sinta-se à vontade para fazer um fork e enviar um pull request. Qualquer sugestão ou problema encontrado pode ser reportado através das issues do GitHub.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Autor
 
-### Code Splitting
+Este projeto foi desenvolvido por Maria de Fátima Nunes Alves.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Licença
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).

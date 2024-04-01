@@ -1,0 +1,100 @@
+body {
+    background-color: #FFC0CB;
+}
+
+.containerImage {
+    text-align: center;
+    padding: 20px;
+}
+
+.imgLogotipoSailorMoon {
+    width: 80%; /* Alterado para porcentagem */
+    max-width: 400px; /* Adicionado um limite máximo */
+}
+
+.containerArticles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Define a largura mínima e a fração flexível */
+    gap: 10px; /* Espaçamento entre os artigos */
+    justify-content: center; /* Alinha o grid no centro */
+    text-align: center; /* Centraliza os elementos internos */
+    margin-top: 40px;
+}
+
+.containerArticles article {
+    max-width: 400px; /* Define o tamanho máximo dos artigos */
+}
+
+.sailormoon1, .sailormoon2, .sailormoon3, .sailormoon4 {
+    width: 100%; /* Alterado para ocupar a largura total do container */
+    height: auto;
+}
+
+.sectionSailorMoon {
+    font-family: "Dekko";
+    color: white;
+    text-align: left;
+    padding: 20px;
+    background-color: #FF69B4;
+    border-radius: 30px;
+    border: 1px solid white;
+    display: inline-block; /* Faz com que os artigos fiquem um ao lado do outro */
+    vertical-align: top; /* Alinha os elementos ao topo */
+    margin: 10px; /* Adiciona margem entre os artigos */
+    width: calc(50% - 20px); /* Define a largura de cada artigo, ajustado para duas colunas */
+}
+
+.tituloSobre, .tituloPersonagens {
+    font-family: "Dekko";
+    color: white;
+    text-align: center;
+}
+
+.tituloPersonagens {
+    background-color: white;
+    color: #FF69B4;
+}
+
+.containerPersonagens {
+    display: inline-block;
+    overflow-x: auto; /* Adicionado para rolagem horizontal em dispositivos menores */
+}
+
+.containerPersonagens section {
+    display: inline-block;
+    margin-right: 20px; /* Adapte o valor conforme necessário */
+    width: 300px; /* Ajustado para uma largura fixa em dispositivos menores */
+}
+
+section {
+    width: 90%; /* Alterado para ocupar a largura total do container */
+    max-width: 400px; /* Adicionado um limite máximo */
+    background-color: #FF69B4;
+    font-family: "Dekko";
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.sectionHome, .sectionSobre {
+    width: 90%; /* Definindo a largura máxima como 90% */
+    max-width: 900px; /* Adicionado um limite máximo */
+    height: auto;
+    font-family: "Dekko", sans-serif;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: auto; /* Define a margem esquerda como automática */
+    margin-right: auto; /* Define a margem direita como automática */
+    border: 1px solid white;
+    text-align: left;
+    font-size: 20px;
+    background-color: #FF69B4;
+    border-radius: 30px;
+}
+
+.containerPersonagens section {
+    margin-right: 10px;
+}

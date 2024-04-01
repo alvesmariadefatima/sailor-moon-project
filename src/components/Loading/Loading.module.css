@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dekko&display=swap');
+
+.loading-container {
+  font-family: 'Dekko', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sailor-moon-loading {
+  position: relative;
+  width: 200px; /* Ajuste o tamanho conforme necessário */
+  height: 200px; /* Ajuste o tamanho conforme necessário */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading {
+  position: absolute;
+  width: 200px; /* Ajuste o tamanho conforme necessário */
+  height: auto; /* Ajuste o tamanho conforme necessário */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loading-message {
+  text-align: center;
+  color: #1C1C1C;
+  font-size: 30px;
+}

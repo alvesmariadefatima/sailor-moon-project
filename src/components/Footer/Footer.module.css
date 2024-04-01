@@ -1,0 +1,26 @@
+.linksRodape {
+    font-family: "Dekko";
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer {
+    background-color: #FF69B4;
+    font-family: "Dekko";
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex; /* Torna o rodapé um contêiner flexível */
+    justify-content: space-between; /* Distribui os itens uniformemente ao longo do eixo principal */
+    padding: 20px; /* Adiciona espaço interno */
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: column; /* Altera a direção do layout para coluna em dispositivos menores */
+        align-items: center; /* Centraliza os itens na horizontal */
+        text-align: center; /* Centraliza o texto */
+    }
+}
